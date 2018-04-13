@@ -1,0 +1,57 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	color: grey;
+}
+
+@font-face{
+	font-family: 'Oswald', sans-serif;
+	src:url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+
+}
+
+.wrapper{
+	display: flex;
+}
+
+.column1{
+	margin:20px;
+	border:1px solid grey;
+	flex: 3;
+	flex-direction: column;
+	padding: 20px;
+	text-align: justify;
+}
+
+.column2{
+	margin:20px;
+	border:1px solid grey;
+	flex: 7; 
+	text-align: justify;
+	padding: 20px;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
+	font-size: 1em;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400px;
+	font-size: 1.2em;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700px;
+	font-size: 1.5em;
+
+}
+
+.caja1 .caja2 {
+	margin:20px;
+	
+}
+
